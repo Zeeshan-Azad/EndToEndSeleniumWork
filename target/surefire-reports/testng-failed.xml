@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="testCases.TestLoggingInWithRandomCreds">
+        <methods>
+          <include name="loginAsRandomUser"/>
+          <include name="launchBrowser"/>
+          <include name="flush"/>
+          <include name="setUp"/>
+          <include name="verifyLogin"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- testCases.TestLoggingInWithRandomCreds -->
+      <class name="testCases.TestLogginInAsAdmin">
+        <methods>
+          <include name="flush"/>
+          <include name="launchBrowser"/>
+          <include name="verifyLoginAccuracy"/>
+          <include name="setUp"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- testCases.TestLogginInAsAdmin -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

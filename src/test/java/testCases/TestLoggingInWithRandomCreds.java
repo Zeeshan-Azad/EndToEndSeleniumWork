@@ -1,6 +1,7 @@
 package testCases;
 
 import org.testng.annotations.Test;
+import org.testng.Assert;
 import org.testng.AssertJUnit;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
@@ -25,6 +26,6 @@ public class TestLoggingInWithRandomCreds extends BaseTest {
 		String urlHomePage = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
 		String urlLandedTo = driver.getCurrentUrl();
 		//boolean loginSuccess = urlLandedTo.equals(urlHomePage);
-		AssertJUnit.assertEquals(urlLandedTo, urlHomePage);
+		Assert.assertEquals(urlLandedTo, urlHomePage);
 	}
 }

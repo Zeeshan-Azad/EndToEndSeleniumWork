@@ -3,14 +3,16 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testCases.TestLoggingInWithRandomCreds">
+      <class name="testCases.TestLogginInAsAdmin">
         <methods>
-          <include name="loginAsRandomUser"/>
+          <include name="setTest"/>
           <include name="launchBrowser"/>
-          <include name="verifyLogin"/>
+          <include name="verifyLoginAccuracy"/>
+          <include name="quit"/>
+          <include name="setUp"/>
           <include name="quitBrowser"/>
         </methods>
-      </class> <!-- testCases.TestLoggingInWithRandomCreds -->
+      </class> <!-- testCases.TestLogginInAsAdmin -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

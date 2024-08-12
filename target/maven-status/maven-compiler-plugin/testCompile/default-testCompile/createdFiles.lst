@@ -1,0 +1,6 @@
+testBase/BaseTest.class
+testCases/TestLogginInAsAdmin.class
+pageObjects/BasePomPage.class
+testBase/BrowserFactory.class
+testCases/TestLoggingInWithRandomCreds.class
+pageObjects/OrangeHrmLoginPage.class

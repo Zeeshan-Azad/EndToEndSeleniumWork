@@ -13,6 +13,7 @@ public static WebDriver launchBrowser(String browserName) {
 		
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--remote-allow-origins=*");
+		options.addArguments("--headless");
 		
 		WebDriver driver;
 		

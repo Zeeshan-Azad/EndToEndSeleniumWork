@@ -5,6 +5,7 @@
     <classes>
       <class name="testCases.TestLogginInAsAdmin"/>
       <class name="testCases.TestLoggingInWithRandomCreds"/>
+      <class name="testBase.BaseTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

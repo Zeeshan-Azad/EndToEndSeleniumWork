@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="testCases.TestLogginInAsAdmin"/>
+      <class name="testCases.TestLoggingInWithRandomCreds"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
